@@ -3,34 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucky 77 Mini Mart | Bakersfield</title>
+    <title>Lucky 77 Mini Mart | 24/7 Bakersfield</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; text-align: center; }
-        .hero { background: #ffcc00; padding: 40px 20px; }
-        .product-card { background: white; margin: 20px auto; padding: 20px; border-radius: 15px; width: 90%; max-width: 400px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        .price { font-size: 1.5em; font-weight: bold; color: #d9534f; }
-        .cta-button { display: inline-block; background: #28a745; color: white; padding: 15px 30px; text-decoration: none; border-radius: 30px; font-weight: bold; margin-top: 10px; }
-        footer { margin-top: 40px; padding: 20px; font-size: 0.9em; color: #555; }
+        /* CSS Styles */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            text-align: center; 
+            background-color: #f4f4f4; 
+            color: #333;
+        }
+        .hero { 
+            background-color: #002d62; /* Navy blue to match logo theme */
+            color: white; 
+            padding: 30px 20px; 
+        }
+        .logo-img { 
+            width: 140px; 
+            height: 140px; 
+            border-radius: 50%; 
+            border: 4px solid #ffcc00; 
+            margin-bottom: 15px; 
+        }
+        .content { padding: 20px; }
+        .product-card { 
+            background: white; 
+            border-radius: 20px; 
+            padding: 25px; 
+            margin: 20px auto; 
+            max-width: 400px; 
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1); 
+        }
+        .price { 
+            font-size: 2em; 
+            font-weight: bold; 
+            color: #d9534f; 
+            margin: 10px 0; 
+        }
+        .btn { 
+            display: block; 
+            background: #28a745; 
+            color: white; 
+            padding: 18px; 
+            margin: 20px auto; 
+            max-width: 320px; 
+            text-decoration: none; 
+            border-radius: 50px; 
+            font-weight: bold; 
+            font-size: 1.1em;
+            transition: transform 0.2s;
+        }
+        .btn:hover { transform: scale(1.05); }
+        footer { 
+            margin-top: 40px; 
+            padding: 30px; 
+            background: #333; 
+            color: white; 
+        }
+        .hours-badge { 
+            background: #ffcc00; 
+            color: black; 
+            padding: 5px 15px; 
+            border-radius: 20px; 
+            font-weight: bold; 
+            display: inline-block;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
 
     <div class="hero">
+        <!-- Replace 'lucky77_logo.png' with your actual image file -->
+        <img src="lucky77_logo.png" alt="Lucky 77 Logo" class="logo-img">
         <h1>Lucky 77 Mini Mart</h1>
-        <p>Your local stop for snacks, drinks, and trends!</p>
+        <p>Your Local Trending Spot</p>
     </div>
 
-    <div class="product-card">
-        <h2>Trending Now!</h2>
-        <p>Mystery Dumpling Squishies</p>
-        <div class="price">$6.99</div>
-        <p>Come find out which color you get!</p>
-        <a href="https://www.google.com/maps/dir/?api=1&destination=1134+Niles+St+Bakersfield+CA+93305" class="cta-button">Get Directions</a>
+    <div class="content">
+        <div class="product-card">
+            <h2>🔥 Trending Now</h2>
+            <p>Mystery Dumpling Squishies</p>
+            <div class="price">$6.99</div>
+            <p>Come get yours before they're gone!</p>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=1134+Niles+St+Bakersfield+CA+93305" class="btn">Get Directions</a>
+        </div>
     </div>
 
     <footer>
-        <p><strong>Visit Us:</strong> 1134 Niles St, Bakersfield, CA 93305</p>
-        <p><strong>Open 24 Hours, 7 Days a Week</strong></p>
+        <p><strong>1134 Niles St, Bakersfield, CA 93305</strong></p>
+        <div class="hours-badge">OPEN 24 HOURS - WE NEVER CLOSE</div>
+        <p style="margin-top: 15px;">Follow our viral journey on TikTok!</p>
     </footer>
 
 </body>
